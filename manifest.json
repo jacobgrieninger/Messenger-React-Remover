@@ -1,0 +1,17 @@
+{
+"name": "Messenger React Delete",
+"version": "1.0.0",
+"description": "Removes emoji reactions from messenger chat.",
+"manifest_version": 2,
+"icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+},
+"content_scripts": [
+    {
+    "matches": ["https://www.messenger.com/*"],
+    "js": ["main.js"]
+    }
+]
+}
