@@ -9,6 +9,9 @@ function FixGaps(){
         if (div.classList.contains('_5z-5')){
             div.classList.remove('_5z-5');
         }
+        if (div.classList.contains('_q4a')){
+            div.classList.remove('_q4a');
+        }
     } )
 }
 setInterval(FixGaps,50);
